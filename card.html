@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is an commors projict project for making anis express">
+    <title>card</title>
+    <!-- font assom cdn link stard -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font assom cdn link end -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+     <!-- nav stard heare -->
+     <i class="fa-solid fa-bars fa-2x" id="menu__icon"></i>
+     <nav id="menu" class="hidden">
+         <ul class="nav_apper flex-space-around">
+             <li class="nav__list"><a class="nav__link" href="index.html">Home</a></li>
+             <li class="nav__list"><a class="nav__link" href="register.html">Register</a></li>
+             <li class="nav__list"><a class="nav__link" href="/index.html">loging</a></li>
+             <li class="nav__list"><a class="nav__link" href="index.html">logout</a></li>
+             <li class="nav__list"><a class="nav__link" href="contact.html">contace</a></li>
+             <li class="nav__list"><a class="nav__link" href="profile.html">
+                <img class="profile__icon" src="./img/man.jpg" alt="profile">
+             </a>
+             </li>
+          </ul>
+          <ul class="nav__lower flex-space-around">
+             <li class="nav__list"><a class="nav__brand nav__link" href="index.html">Nila Express</a></li>
+             <li class="nav__list"><a class="nav__link" href="/cart.html">
+                 <span><i class=" fa-solid fa-cart-shopping"></i> </span>
+                 cart 2 product
+             </a>
+             </li>
+ 
+          </ul>
+     </nav>
+ <!-- nav end here -->
+ <main>
+    <div class="cart flex__center">
+        <div class="cart__items">
+            <div class="cart__items__heading card">
+                <h2>shooping cart[2 items]</h2>
+                <div class="cart__items__action">
+                
+                    <label for="select">
+                        <input type="checkbox" name="select" id="select">
+                        select all items
+                    </label>
+                    <button class="btn">
+                        <i class="fas fa-trash-alt"></i>
+                    </button>
+                    <button class="btn"> shop More</button>
+                </div>
+                </div>
+                <div class="cart__item card flex-space-around">
+                    <input type="checkbox" name="" id="">
+                    <img src="./img/pexels-sound-on-3756776.jpg" alt="product" class="cart__item-img">
+                    <div class="cart__item__descript">
+                        <h3 class="product__name">Sony V-Headphone</h3>
+                       <h4  class="product__price">price:$225.99</h4>
+                       <p class="card__item__shooping">Free shiping</p>
+                    </div>
+                    <div class="cart__item-actions">
+                        <button class="btn">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                        <div>
+                            <button class="btn">
+                                <i class="fas fa-add"></i>
+                            </button>
+                            <span>3</span>
+                            <button class="btn">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="cart__item card flex-space-around">
+                    <input type="checkbox" name="" id="">
+                    <img src="./img/free-run-2018-womens-running-shoes-2Xz32l.png" alt="product3" class="cart__item-img">
+                    <div class="cart__item__descript">
+                        <h3 class="product__name">Nike shose</h3>
+                       <h4  class="product__price">price:$115.99</h4>
+                       <p class="card__item__shooping">shiping cost $2.50</p>
+                    </div>
+                    <div class="cart__item-actions">
+                        <button class="btn">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                        <div>
+                            <button class="btn">
+                                <i class="fas fa-add"></i>
+                            </button>
+                            <span>1</span>
+                            <button class="btn">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="cart__payment"> 
+                <div class="cart__payment-summary card">
+                    <h2>payment summary</h2>
+                    <div>
+                        <p>Subtotal:</p>
+                        <p>$341.44</p>
+                    </div>
+                    <div>
+                        <p>shipping Cost:</p>
+                        <p>$3.44</p>
+                    </div>
+                    <div>
+                        <p>tottol cost:</p>
+                        <p>$200.50</p>
+                    </div>
+                    <button class="btn cart__payment-btn"> pay now</button>
+                </div>
+                    <div class="cart__payment-methods card">
+                        <h2>payment Methods</h2>
+                        <div>
+                            <i class="fa-brands fa-cc-visa fa-3x"></i>
+                            <i class="fa-brands fa-cc-apple fa-3x"></i>
+                            <i class="fa-brands fa-cc-amex fa-3x"></i>
+                            <i class="fa-brands fa-cc-amazon-pay fa-3x"></i>
+                            <i class="fa-brands fa-cc-paypal fa-3x"></i>
+                         </div>
+
+                    </div>
+            </div>
+        
+   
+    </div>
+ </main>
+
+     <!-- footer code stard  here -->
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="susscrive">susscrive to new letter</label>
+            <input type="emil" id="susscrive" name="susscrive" class="footer__input" placeholder="your emil address">
+            <button class="btn btn__susscrive">susscrive</button>
+        </div>
+        <div>
+            <p>&copy write-----nila</p>
+
+        </div>
+    </footer>
+    <!-- footer code stard here -->
+ <script src="./index.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="this is an commors projict project for making anis express">
+    <title>E- commors</title>
+    <!-- font assom cdn link stard -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font assom cdn link end -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- nav stard heare -->
+    <i class="fa-solid fa-bars fa-2x" id="menu__icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav_apper flex-space-around">
+            <li class="nav__list"><a class="nav__link" href="index.html">Home</a></li>
+            <li class="nav__list"><a class="nav__link" href="register.html">Register</a></li>
+            <li class="nav__list"><a class="nav__link" href="login.html">login</a></li>
+            <li class="nav__list"><a class="nav__link" href="index.html">logout</a></li>
+            <li class="nav__list"><a class="nav__link" href="contact.html">contace</a></li>
+            <li class="nav__list"><a class="nav__link" href="profile.html">
+               <img class="profile__icon" src="./img/man.jpg" alt="profile">
+            </a>
+            </li>
+         </ul>
+         <ul class="nav__lower flex-space-around">
+            <li class="nav__list"><a class="nav__brand nav__link" href="index.html">Nila Express</a></li>
+            <li class="nav__list"><a class="nav__link" href="/cart.html">
+                <span><i class=" fa-solid fa-cart-shopping"></i> </span>
+                cart 2 product
+            </a>
+            </li>
+
+         </ul>
+    </nav>
+
+    
+    <!-- nav end here -->
+
+    <!-- header stard here-->
+    <header class="header">
+        <div class="bannar flex-space-around">
+            <marquee class="bannar__tittle" direction="">50% Sales going on</marquee>
+      
+
+        <div class="festares flex-space-around">
+
+            <article class="festare flex__center">
+                <i class="fa-solid fa-truck festare__icone"></i>
+                <h3>shooping with 3,days</h3>
+            </article>
+
+            <article class="festare flex__center">
+                <i class="fa-brands fa-rocketchat  festare__icone"></i>
+                <h3>support 24/7</h3>
+            </article>
+
+            <article class="festare flex__center">
+                <i class="fa-regular fa-credit-card  festare__icone"></i>
+                <h3>safe payment</h3>
+            </article>
+        </div>
+        </div>
+    </header>
+    <!-- header end here -->
+    
+
+    <!-- maim stard here -->
+    <main class="flex__center">
+        <div class="sidebar">
+            <section class="categoris__section">
+                <h3 class="section__title">Cataeories</h3>
+        <ul class="list">
+            <li class="list__item">
+                <label for="phone">
+                 <input type="checkbox" name="phone" id="phone" value="phone">
+                 phone
+                </label>
+ 
+             </li>
+             <li class="list__item">
+                 <label for="tablets">
+                  <input type="checkbox" name="tablets" id="tablets" value="tablets">
+                  tablets
+                 </label>
+  
+              </li>
+              <li class="list__item">
+                 <label for="telivision">
+                  <input type="checkbox" name="telivision" id="telivision" value="telivision">
+                  telivision
+                 </label>
+  
+              </li>
+             </li>
+             <li class="list__item">
+                <label for="computer">
+                 <input type="checkbox" name="computer" id="computer" value="computer">
+                 computer
+                </label>
+ 
+             </li>
+             <li class="list__item">
+                 <label for="headphone">
+                  <input type="checkbox" name="headphone" id="headphone" value="headphone">
+                  computer
+                 </label>
+            </ul>
+    </section>
+
+    <section class="price__section">
+        <h3 class="section__title">price</h3>
+        <ul class="list">
+
+        <li class="list__item">
+           <label for="price">
+            <input type="checkbox" name="price" id="price" value="[0,20]">
+            $0-$20
+           </label>
+           </li>
+
+           <li class="list__item">
+            <label for="price1">
+             <input type="checkbox" name="price1" id="price1" value="[20,50]">
+             $20-$50
+            </label>
+            </li>
+            <li class="list__item">
+                <label for="price2">
+                 <input type="checkbox" name="price2" id="price2" value="[25,100]">
+                 $2-$100
+                </label>
+                </li>
+                <li class="list__item">
+                    <label for="price3">
+                     <input type="checkbox" name="price3" id="price3" value="[25,101]">
+                     $25-$101
+                    </label>
+                    </li>
+                    <li class="list__item">
+                        <label for="price3">
+                         <input type="checkbox" name="price3" id="price3" value="[25,101]">
+                         $250-$500
+                        </label>
+                        </li>
+                    </ul>
+             </section>
+             <section class="shipping__section">
+                <h3 class="section__title">shipping option</h3>
+                <ul class="list">
+    
+                <li class="list__item">
+                   <label for="free">
+                    <input type="radio" name="shipping" id="free" value="free">
+                    free
+                   </label>
+                   </li>
+                   <li class="list__item">
+                    <label for="paid">
+                     <input type="radio" name="shipping" id="paid" value="paid">
+                     paid
+                    </label>
+                    </li>
+                   </ul>
+                </section>
+
+        </div>
+        <div class="maim__content">
+            <section class="action flex-space-around">
+                <div class="action__sort">
+                    <label for="sort">sort By:</label>
+                    <select name="sort" id="sort">
+                        <option value="sold">Most solt fist</option>
+                        <option value="rating">Most rated fist</option>
+                        <option value="price">cheapest fist</option>
+                        <option value="arrival">Newest fist</option>
+                        <option value="discoud">Biggest discound fist</option>
+                    </select>
+             </div>
+
+             <div class="action__search">
+                <input type="text" placeholder="search product">
+                <button class="btn">
+                    <i class="fa-sharp fa-solid
+                    fa-magnifying-glass"></i>
+            </button>
+        </div>
+ </section>
+
+ <!-- product section start here-->
+ <section class="products">
+    
+    <article class="product card">
+        <div class="badge">
+            <span>5 in stock</span>
+            <hr class="hr__design">
+            <span>3 soid</span>
+        </div>
+        <img  class="product__img" src="./img/pexels-sound-on-3756776.jpg" alt="product1">
+        <div class="product__body">
+            <h3 class="product__name">sony V-4 Headphone</h3>
+            <p>
+                <span class="dot green"> </span>
+                <span class="dot black"> </span>
+                <span class="dot red"> </span>
+            </p>
+            
+            <p class="product__discription">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Aspernatur,quaerat id. Assumenda necessitatibuscorporis perspiciatis 
+                 molestiae odi modi. Magni,... <a href="/product.html" class="learn_more">learn more</a>
+                </p>
+                <h4 class="product__price">$225.99</h4>
+                <p class="product__rating">Rating:4.5/5</p>
+                <button class="btn product__button">Add To cart</button>
+            </div>
+             </article>
+
+
+             <article class="product card">
+                <div class="badge">
+                    <span>3 in stock</span>
+                    <hr class="hr__design">
+                    <span>12soid</span>
+                </div>
+                <img  class="product__img" src="./img/pro2.jpg" alt="product3">
+                <div class="product__body">
+                    <h3 class="product__name">Nike shoes</h3>
+                    <p>
+                        <span class="dot green"> </span>
+                        <span class="dot black"> </span>
+                        <span class="dot red"> </span>
+                    </p>
+                    <p class="product__discription">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Aspernatur,quaerat id. Assumenda necessitatibuscorporis perspiciatis 
+                         molestiae odi modi. Magni,... <a href="/product.html" class="learn_more">learn more</a>
+                        </p>
+                        <h4 class="product__price">$425.99</h4>
+                        <p class="product__rating">Rating:4.23/5</p>
+                        <button class="btn product__button">Add To cart</button>
+                    </div>
+                     </article>
+
+
+
+                     <article class="product card">
+                        <div class="badge">
+                            <span>2 in stock</span>
+                            <hr class="hr__design">
+                            <span>9 soid</span>
+                        </div>
+                        <img  class="product__img" src="./img/free-run-2018-womens-running-shoes-2Xz32l.png" alt="product1">
+                        <div class="product__body">
+                            <h3 class="product__name">Apple smart watct</h3>
+                            <p>
+                                <span class="dot green"> </span>
+                                <span class="dot black"> </span>
+                                <span class="dot red"> </span>
+                            </p>
+                            <p class="product__discription">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Aspernatur,quaerat id. Assumenda necessitatibuscorporis perspiciatis 
+                                 molestiae odi modi. Magni,... <a href="/product.html" class="learn_more">learn more</a>
+                                </p>
+                                <h4 class="product__price">$425.99</h4>
+                                <p class="product__rating">Rating:4.23/5</p>
+                                <button class="btn product__button">Add To cart</button>
+                            </div>
+                             </article>
+
+
+
+
+                             <article class="product card">
+                                <div class="badge">
+                                    <span>5 in stock</span>
+                                    <hr class="hr__design">
+                                    <span>3 soid</span>
+                                </div>
+                                <img  class="product__img" src="./img/pexels-sound-on-3756776.jpg" alt="product1">
+                                <div class="product__body">
+                                    <h3 class="product__name">sony V-4 Headphone</h3>
+                                    <p>
+                                        <span class="dot green"> </span>
+                                        <span class="dot black"> </span>
+                                        <span class="dot red"> </span>
+                                    </p>
+                                    <p class="product__discription">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                         Aspernatur,quaerat id. Assumenda necessitatibuscorporis perspiciatis 
+                                         molestiae odi modi. Magni,... <a href="/product.html" class="learn_more">learn more</a>
+                                        </p>
+                                        <h4 class="product__price">$225.99</h4>
+                                        <p class="product__rating">Rating:4.5/5</p>
+                                        <button class="btn product__button">Add To cart</button>
+                                    </div>
+                                     </article>
+                        
+                        
+                                     <article class="product card">
+                                        <div class="badge">
+                                            <span>3 in stock</span>
+                                            <hr class="hr__design">
+                                            <span>12soid</span>
+                                        </div>
+                                        <img  class="product__img" src="./img/pro2.jpg" alt="product3">
+                                        <div class="product__body">
+                                            <h3 class="product__name">Nike shoes</h3>
+                                            <p>
+                                                <span class="dot green"> </span>
+                                                <span class="dot black"> </span>
+                                                <span class="dot red"> </span>
+                                            </p>
+                                            <p class="product__discription">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                 Aspernatur,quaerat id. Assumenda necessitatibuscorporis perspiciatis 
+                                                 molestiae odi modi. Magni,... <a href="/product.html" class="learn_more">learn more</a>
+                                                </p>
+                                                <h4 class="product__price">$425.99</h4>
+                                                <p class="product__rating">Rating:4.23/5</p>
+                                                <button class="btn product__button">Add To cart</button>
+                                            </div>
+                                             </article>
+                        
+                        
+                        
+                                             <article class="product card">
+                                                <div class="badge">
+                                                    <span>2 in stock</span>
+                                                    <hr class="hr__design">
+                                                    <span>9 soid</span>
+                                                </div>
+                                                <img  class="product__img" src="./img/free-run-2018-womens-running-shoes-2Xz32l.png" alt="product1">
+                                                <div class="product__body">
+                                                    <h3 class="product__name">Apple smart watct</h3>
+                                                    <p>
+                                                        <span class="dot green"> </span>
+                                                        <span class="dot black"> </span>
+                                                        <span class="dot red"> </span>
+                                                    </p>
+                                                    <p class="product__discription">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                         Aspernatur,quaerat id. Assumenda necessitatibuscorporis perspiciatis 
+                                                         molestiae odi modi. Magni,... <a href="/product.html" class="learn_more">learn more</a>
+                                                        </p>
+                                                        <h4 class="product__price">$425.99</h4>
+                                                        <p class="product__rating">Rating:4.23/5</p>
+                                                        <button class="btn product__button">Add To cart</button>
+                                                    </div>
+                                                     </article>
+                        
+                                                </section>
+
+
+                                            <div class="pagination">
+                                                <button class="btn pagination__btn">
+                                                    <i class="fas fa-less-than"></i>
+                                                </button>
+                                                <button class="btn pagination__btn">2</button>
+                                                <button class="btn pagination__btn">3</button>
+                                                <button class="btn pagination__btn">4</button>
+                                                <button class="btn pagination__btn">5</button>
+                                                <button class="btn pagination__btn">6</button>
+                                                <button class="btn pagination__btn">7</button>
+                                                <button class="btn pagination__btn">8</button>
+                                                <button class="btn pagination__btn">9</button>
+                                                <button class="btn pagination__btn">10</button>
+                                                <button class="btn pagination__btn">...</button>
+                                                <button class="btn pagination__btn">50</button>
+                                                <button class="btn pagination__btn">
+                                                    <i class="fas fa-greater-than"></i>
+                                                </button>
+
+                                            </div>
+                                                <!-- product section end here-->
+                                            </div>
+                                    </main>
+                                 <!-- maim  section end here -->
+
+    <!-- footer code stard  here -->
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="susscrive">susscrive to new letter</label>
+            <input type="emil" id="susscrive" name="susscrive" class="footer__input" placeholder="your emil address">
+            <button class="btn btn__susscrive">susscrive</button>
+        </div>
+        <div>
+            <p>&copy write-----nila</p>
+
+        </div>
+    </footer>
+    <!-- footer code stard here -->
+
+
+    <!-- index.js link stard -->
+    <script src="./index.js"></script>
+
+
+
+</body>
+
+</html>
